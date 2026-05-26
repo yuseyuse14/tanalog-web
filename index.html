@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Tanalog</title>
+  <style>
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+      line-height: 1.6;
+      margin: 0 auto;
+      padding: 0;
+      background: #f7f7f7;
+      color: #333;
+    }
+
+    .header {
+      background: #4F388A;
+      color: #DCDAE8;
+      padding: 20px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 16px;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: 30px auto;
+      padding: 30px;
+      background: white;
+      border-radius: 20px;
+    }
+
+    /* タイトル */
+    h1 {
+      font-size: 32px;
+    }
+
+    /* セクションタイトル */
+    h2 {
+      margin-top: 30px;
+      font-size: 24px;
+      border-left: 8px solid #e81767;
+      padding-left: 10px;
+    }
+
+    /* サブセクションタイトル */
+    h3 {
+      margin-left: 40px;
+      margin-top: 20px;
+      font-size: 18px;
+    }
+
+    .summary {
+      padding: 15px;
+      margin-bottom: 50px;
+      font-size: 22px;
+      font-weight: 700;
+    }
+
+    /* セクション */
+    .section {
+      margin-bottom: 50px;
+    }
+    .section p {
+      margin-left: 40px;
+    }
+
+    /* サブセクション */
+    .subsection {
+      margin-bottom: 30px;
+    }
+    .subsection p {
+      margin-left: 60px;
+    }
+
+    .app-image {
+      width: 100%;
+      max-width: 600px;
+      display: block;
+      margin: 20px auto;
+      border: 2px solid #333;
+      border-radius: 18px;
+    }
+
+    .email {
+      background: #f0f0f0;
+      padding: 10px;
+      display: inline-block;
+      border-radius: 6px;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="header">
+    <img src="icon.png" alt="アイコン", width="100" />
+    <h1>Tanalog - 飲食店のための在庫管理アプリ</h1>
+  </div>
+
+  <div class="container">
+    <div class="summary">
+      <p>
+        Tanalog(タナログ)は、飲食店のための在庫管理アプリです。<br><br>
+        在庫不足をひと目で把握し、タグと検索で必要な情報にすばやくアクセスできます。<br>
+        忙しい日々の在庫管理をシンプルに、効率的にサポートします。
+      </p>
+    </div>
+
+    <div class="section">
+      <h2>主な機能</h2>
+
+      <div class="subsection">
+        <h3>在庫の一覧管理</h3>
+        <p>
+          名前 / 個数 / 基準個数 / 単位 / タグ を登録できます。<br>
+          基準個数を下回ると不足として表示されます。
+        </p>
+        <p>在庫の個数に応じて色分け表示され、少ない在庫がすぐに分かります。</p>
+        <img src="stock-list.png" alt="在庫一覧画面" class="app-image" />
+      </div>
+
+      <div class="subsection">
+        <h3>簡単な在庫更新</h3>
+        <p>＋／−ボタンで在庫数を素早く変更できます。</p>
+      </div>
+
+      <div class="subsection">
+        <h3>検索・絞り込み</h3>
+        <p>在庫名検索、タグフィルタ、並び替えに対応しています。</p>
+      </div>
+
+      <div class="subsection">
+        <h3>タグ管理</h3>
+        <p>タグは自由に追加でき、柔軟に在庫を整理できます。</p>
+        <img src="tag-list.png" alt="タグ一覧画面" class="app-image" />
+      </div>
+    </div>
+
+    <div class="section">
+      <h2>お問い合わせ</h2>
+      <p>不具合・ご質問はこちらまで：</p>
+      <p class="email">
+        <a href="mailto:yuseyuse14@icloud.com">
+          yuseyuse14@icloud.com
+        </a>
+      </p>
+    </div>
+
+    <div class="section">
+      <h2>プライバシー</h2>
+      <p>
+        プライバシーポリシーは<a href="privacyPolicy.html">こちら</a>をご覧ください。
+      </p>
+    </div>
+  </div>
+</body>
+</html>
